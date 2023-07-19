@@ -118,7 +118,13 @@
     .nav-container,
     .nav-items,
     .banner-part-container,
-    .four-images {
+    .four-images,
+    .play-games-container,
+    .games-collection-container,
+    .images-first-line,
+    .images-second-line,
+    .final-part-options,
+    .policy {
         flex-direction: column;
     }
 
@@ -232,5 +238,44 @@
 
     .text-of-images {
         font-size: 15px;
+    }
+
+    .games-content {
+        font-size: 20px;
+    }
+
+    .games-img {
+        height: 30%;
+        width: 30%;
+    }
+
+    .policy {
+        font-size: 10px;
+    }
+
+    .copyright-part {
+        font-size: 10px;
+    }
+
+    .games-collection-container {
+        margin-top: 30px;
+    }
+
+    .games-content h1 {
+        font-size: 20px;
+        margin-left: 80px;
+    }
+
+    .games-content p {
+        font-size: 10px;
+        margin-right: 150px;
+    }
+
+    .images-first-line {
+        margin-right: 150px;
+    }
+
+    .images-second-line {
+        margin-right: 150px;
     }
 }
