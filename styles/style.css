@@ -290,6 +290,12 @@ footer {
     justify-content: center;
     gap: 80px;
     margin-top: 20px;
+
+}
+
+.icons-part img {
+    height: 30px;
+    width: 30px;
 }
 
 .second-options {
