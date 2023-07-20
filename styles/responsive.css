@@ -1,11 +1,20 @@
+/* responsive styles */
+/* for mobile device */
 @media screen and (max-width:576px) {
     .nav-container {
         flex-direction: column;
     }
 
+    .logo-container {
+        width: 100%;
+        margin-left: 250px;
+        margin-bottom: -30px;
+    }
+
     .nav-items-container {
         flex-direction: column;
         margin-bottom: 10px;
+        width: 100%;
     }
 
     .nav-items-container a {
@@ -13,6 +22,7 @@
     }
 
     /* nav responsive ends */
+
     /* banner responsive starts */
     .banner-container {
         flex-direction: column;
@@ -27,37 +37,113 @@
         text-align: center;
     }
 
+    .banner-text h3 {
+        color: black;
+        font-size: 28px;
+        font-weight: 500;
+    }
+
+    .linear-gradient-text {
+        font-size: 50px;
+        font-weight: 600;
+        margin-top: -25px;
+    }
+
+    .banner-text p {
+        margin-top: -25px;
+        font-size: 15px;
+    }
+
+
     .banner-btn {
         margin-right: 0;
-        margin-left: 20px;
+        /* margin-left: 20px; */
     }
 
     /* banner section responsive ends here */
+
     /* online games section starts */
     .grid-container {
         grid-template-columns: 1fr;
+        margin-top: -5px;
     }
 
-    /* play games section */
+    h2 {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    /* play games section starts here*/
     .play-games-container {
         flex-direction: column;
     }
 
-    .play-games-imgs,
-    .play-games-text {
+    .play-games-imgs {
         width: 100%;
     }
 
-    /* games name section starts */
+    .play-games-imgs img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .play-games-text {
+        width: 100%;
+        padding: 30px 0px;
+        /* padding-left: 200px; */
+    }
+
+    .play-games-text h1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .play-heading {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    /* games part start */
+
+    .game-with-title {
+        gap: 10px;
+    }
+
     .games-name-container {
-        margin-top: 20px;
+        margin-top: -100px;
+        gap: 10px;
     }
 
-    .first-line-game {
-        flex-direction: column;
+    .game-with-title img {
+        height: 15px;
+        width: 15px;
     }
 
-    .second-line-game {
-        margin-top: -25px;
-        flex-direction: column;
+    .game-with-title p {
+        font-size: 10px;
+        font-weight: 100;
     }
+
+    /* footer section */
+    .first-options {
+        flex-wrap: wrap;
+        gap: 20px;
+        color: white;
+        padding: 0px 50px;
+    }
+
+    .second-options {
+        flex-wrap: wrap;
+
+        gap: 40px;
+        color: rgb(136, 136, 136);
+        /* margin-top: 20px; */
+    }
+
+    .last-text p {
+        font-size: 10px;
+    }
+}
