@@ -1,281 +1,63 @@
-/* responsive part starts */
-
-/* for mobile screen */
 @media screen and (max-width:576px) {
-
-    .nav-logo,
-    .nav-container,
-    .nav-items,
-    .follow-part,
-    .four-images {
+    .nav-container {
         flex-direction: column;
-        margin-top: 10px;
     }
 
-    .follow-part {
-        justify-content: space-around;
-    }
-
-    .nav-logo {
-        margin-left: 0;
-    }
-
-    .banner-part-container {
-        flex-direction: column-reverse;
-        margin-top: 20px;
-    }
-
-    .banner-img {
-        height: 200px;
-        width: 180px;
-    }
-
-    .play-text {
-        text-align: center;
-        color: #0B0223;
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 600;
-        text-transform: uppercase;
-    }
-
-    .goat-text {
-        text-align: center;
-        font-size: 30px;
-        font-style: normal;
-        font-weight: 800;
-        text-transform: uppercase;
-
-        background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .baaner-left {
-        margin-top: 20px;
-    }
-
-    .play-options {
-        /* padding-left: 80px; */
-        margin-left: 30px;
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 500;
-        margin-bottom: 5px;
-        /* line-height: normal; */
-        /* text-transform: lowercase; */
-    }
-
-
-
-    .sign-btn {
-
-        margin-right: 0px;
-        margin-left: 5px;
-        font-size: 10px;
-    }
-
-    .go-btn {
-
-        background-color: #4EC5F7;
-        color: white;
-        font-size: 10px;
-    }
-
-    .online-heading h1 {
-        font-size: 12px;
+    .nav-items-container {
+        flex-direction: column;
         margin-bottom: 10px;
     }
 
-    .online-heading p {
-        font-size: 6px;
+    .nav-items-container a {
+        margin-top: 20px;
     }
 
-    .online-games-container {
-        margin-left: 140px;
-    }
-
-    .online-games-container img {
-        width: 100px;
-        height: 100px;
-    }
-
-    .four-images p {
-        text-align: center;
-        font-size: 8px;
-    }
-}
-
-
-
-
-
-/* for medium devices */
-
-@media screen and (min-width:576px) and (max-width:960px) {
-
-    .nav-container,
-    .nav-items,
-    .banner-part-container,
-    .four-images,
-    .play-games-container,
-    .games-collection-container,
-    .images-first-line,
-    .images-second-line,
-    .final-part-options,
-    .policy {
+    /* nav responsive ends */
+    /* banner responsive starts */
+    .banner-container {
         flex-direction: column;
     }
 
-    .nav-items {
-        width: 50%;
-        margin-right: 60px;
-        font-size: 15px;
-
-    }
-
-    .nav-logo {
-        margin-top: 10px;
-        margin-bottom: 5px;
-        margin-left: 200px;
-    }
-
-    .logo-img {
-        height: 20px;
-        width: 30px;
-    }
-
-    .logo-text {
-        font-weight: 500px;
-        font-size: 20px;
-    }
-
-    .nav-container {
-        text-align: center;
-    }
-
-    .follow-part {
-
-        border: 1px solid gainsboro;
-        border-radius: 5px;
-        background-color: rgb(221, 221, 221);
-        padding: 0 3px;
-    }
-
-    .utube {
-        height: 20px;
-        width: 20px;
-    }
-
-    .nav-items p {
-        margin-bottom: 5px;
-    }
-
-
-    .play-text {
-        margin-top: 20px;
-        color: #0B0223;
-        font-size: 15px;
-        font-weight: 200;
-        margin-left: 50px;
-        /* text-transform: uppercase; */
-    }
-
-    .goat-text {
-
-        font-size: 35px;
-        font-weight: 500;
-        margin-right: 50px;
-    }
-
-    .play-options {
-        font-size: 15px;
-        font-style: normal;
-        font-weight: 400;
-        margin-bottom: 5px;
-        margin-left: 25px;
-    }
-
-    .sign-btn {
-        margin-right: 20px;
-    }
-
+    .banner-text,
     .banner-img {
-        height: 250px;
-        width: 250px;
-        margin-right: 90px;
+        width: 100%;
     }
 
-    .online-heading h1 {
-        font-size: 15px;
-        margin-right: 90px;
-    }
-
-    .online-heading p {
-        font-size: 10px;
-        margin-right: 80px;
-    }
-
-    .four-images {
-        margin-right: 80px;
-        margin-top: 30px;
-        margin-bottom: 100px;
-        column-gap: 5px;
-    }
-
-    .online-games-container img {
-        width: 150px;
-        height: 150px;
-    }
-
-    .one,
-    .two,
-    .three,
-    .four {
+    .banner-text {
         text-align: center;
     }
 
-    .text-of-images {
-        font-size: 15px;
+    .banner-btn {
+        margin-right: 0;
+        margin-left: 20px;
     }
 
-    .games-content {
-        font-size: 20px;
+    /* banner section responsive ends here */
+    /* online games section starts */
+    .grid-container {
+        grid-template-columns: 1fr;
     }
 
-    .games-img {
-        height: 30%;
-        width: 30%;
+    /* play games section */
+    .play-games-container {
+        flex-direction: column;
     }
 
-    .policy {
-        font-size: 10px;
+    .play-games-imgs,
+    .play-games-text {
+        width: 100%;
     }
 
-    .copyright-part {
-        font-size: 10px;
+    /* games name section starts */
+    .games-name-container {
+        margin-top: 20px;
     }
 
-    .games-collection-container {
-        margin-top: 30px;
+    .first-line-game {
+        flex-direction: column;
     }
 
-    .games-content h1 {
-        font-size: 20px;
-        margin-left: 80px;
+    .second-line-game {
+        margin-top: -25px;
+        flex-direction: column;
     }
-
-    .games-content p {
-        font-size: 10px;
-        margin-right: 150px;
-    }
-
-    .images-first-line {
-        margin-right: 150px;
-    }
-
-    .images-second-line {
-        margin-right: 150px;
-    }
-}
